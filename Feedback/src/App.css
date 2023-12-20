@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  display: flex;
+  margin: 10px auto;
+  justify-content: center;
+}
+button {
+  padding: 10px;
+  margin: 5px;
+  background-color: #18b76c;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+h3 {
+  border: dotted;
+}
+label {
+  margin-right: 50px;
+}
+.storing_buttons {
+  border: double;
+  display: flex;
+  justify-content: center;
+  margin: 2px 8px;
+  flex-direction: column;
+}
+.stats {
+  padding: 20px;
+}
